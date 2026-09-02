@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "image_banner_LVyBqe": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UgeGhk": {
+          "type": "heading",
+          "settings": {
+            "heading": "QUICK ANSWERS FOR COZY PARENTS",
+            "heading_size": "h2"
+          }
+        },
+        "text_KKB7yi": {
+          "type": "text",
+          "settings": {
+            "text": "WE’VE COMPILED A LIST OF THE MOST COMMON QUESTIONS ABOUT OUR PRODUCTS, SHIPPING, AND SUSTAINABLE MISSION. IF YOU CAN’T FIND WHAT YOU NEED, PLEASE REACH OUT TO US DIRECTLY!",
+            "text_style": "body"
+          }
+        },
+        "buttons_VqgkTP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UgeGhk",
+        "text_KKB7yi",
+        "buttons_VqgkTP"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/vecteezy_infant-engaging-with-toy-blocks_27183373.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "collapsible_content_H8kXTh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_pJ7a4G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to receive my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Handling time: 1–3 business days (up to 5 during peak seasons). Transit time: 7–15 business days. See our Shipping Policy for details.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ApFaWT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer free shipping?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes — we offer free standard shipping on every order to all the countries we currently deliver to. See our Shipping Policy for the full list.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PR3gje": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where is Eco Cozy Childhood located?",
+            "icon": "check_mark",
+            "row_content": "<p>We're based in the Republic of Moldova. We're an online-only store shipping worldwide to a growing list of countries across Europe, North America, and Asia-Pacific.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Qzr4RL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "check_mark",
+            "row_content": "<p>We currently accept PayPal. We're working on adding Visa and Mastercard soon.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WVMEMp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I receive a defective or wrong item?",
+            "icon": "check_mark",
+            "row_content": "<p>Contact us with your order number and photos/video of the issue. We'll offer a free replacement, a 50% partial refund, or a full 100% refund — whichever works best for you.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WGPCzg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "check_mark",
+            "row_content": "<p>You have 30 days from delivery to return an item that's unused, in its original packaging. If you're simply changing your mind, return shipping is at your own cost; if the item is defective or wrong, it's free. EU customers additionally have a 14-day cooling-off right to cancel for any reason. Full details on our Return & Refund Policy page.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_K9Uz4h": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will I get my refund after returning a product?",
+            "icon": "check_mark",
+            "row_content": "<p>Once we receive and inspect your return, your refund is processed within 10 business days to your original payment method.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y9Pt44": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I contact customer support?",
+            "icon": "check_mark",
+            "row_content": "<p>Email us at <a href=\"mailto:ecocozy.support@gmail.com\">ecocozy.support@gmail.com</a> or call +373 78 360367, Monday–Friday, 9:00 AM–6:00 PM (EET). We reply within 1–2 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WVrQkf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes. We currently ship to a number of countries worldwide — see our Shipping Policy for the complete list. Import duties/taxes, if any, are the customer's responsibility.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bBktni": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have a physical store I can visit?",
+            "icon": "check_mark",
+            "row_content": "<p>We're an online-only store, which lets us keep prices low and offer free worldwide shipping.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GjVd39": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I track my order?",
+            "icon": "check_mark",
+            "row_content": "<p>You'll get an email with a tracking number as soon as your order ships. Please allow up to 48 hours for tracking info to activate.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_pJ7a4G",
+        "collapsible_row_ApFaWT",
+        "collapsible_row_PR3gje",
+        "collapsible_row_Qzr4RL",
+        "collapsible_row_WVMEMp",
+        "collapsible_row_WGPCzg",
+        "collapsible_row_K9Uz4h",
+        "collapsible_row_y9Pt44",
+        "collapsible_row_WVrQkf",
+        "collapsible_row_bBktni",
+        "collapsible_row_GjVd39"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_LVyBqe",
+    "collapsible_content_H8kXTh"
+  ]
+}

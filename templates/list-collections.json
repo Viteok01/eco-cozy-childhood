@@ -1,0 +1,224 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "date",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "columns_mobile": "1"
+      }
+    },
+    "image_banner_tneFVf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_69bgVt": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE ECO COZY COLLECTION.",
+            "heading_size": "h1"
+          }
+        },
+        "text_tikx4K": {
+          "type": "text",
+          "settings": {
+            "text": "WELCOME TO OUR CAREFULLY CURATED SHOP. WE’VE DONE THE RESEARCH FOR YOU — FIND ONLY THE SAFEST, MOST BEAUTIFUL, AND MOST SUSTAINABLY SOURCED ESSENTIALS, DESIGNED TO FOSTER A GENTLE CHILDHOOD.",
+            "text_style": "body"
+          }
+        },
+        "buttons_q4weAT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_69bgVt",
+        "text_tikx4K",
+        "buttons_q4weAT"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/vecteezy_ai-generated-collection-of-nursery-room-frame-mockups-ready_35698867.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_EgfkaM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aRCQWd": {
+          "type": "heading",
+          "settings": {
+            "heading": "TINY BEGINNINGS | 0–2 YEARS",
+            "heading_size": "h2"
+          }
+        },
+        "text_7AYCjz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EVERYTHING FOR A GENTLE BEGINNING — ECO-FRIENDLY AND SAFE CHOICES THAT BRING COMFORT AND CARE FROM THE VERY FIRST DAYS.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_9FKLJc": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify://collections/🌱-tiny-beginnings-0-2-years",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aRCQWd",
+        "text_7AYCjz",
+        "button_9FKLJc"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Little_Dreamers_6-10.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_gknzTp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_69kPJD": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURIOUS EXPLORERS | 3–5 YEARS",
+            "heading_size": "h2"
+          }
+        },
+        "text_7MXakA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A SPACE FOR FIRST DISCOVERIES — ECO-FRIENDLY AND STYLISH PIECES THAT INSPIRE CHILDREN TO LEARN, PLAY, AND EXPLORE THE WORLD.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3xeTNe": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify://collections/🌿-curious-explorers-3-5-years",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_69kPJD",
+        "text_7MXakA",
+        "button_3xeTNe"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Curious_Explorers_3-5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_HEFcNi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Cr6ETX": {
+          "type": "heading",
+          "settings": {
+            "heading": "LITTLE DREAMERS | 6-10 YEARS",
+            "heading_size": "h2"
+          }
+        },
+        "text_9zNHm7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A COZY AND HARMONIOUS ENVIRONMENT FOR GROWTH AND INSPIRATION — EVERYTHING THAT HELPS CHILDREN DEVELOP, DREAM, AND EXPRESS THEMSELVES.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_igrNqi": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify://collections/little-dreamers",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cr6ETX",
+        "text_9zNHm7",
+        "button_igrNqi"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Tiny_Beginning_0-2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_tneFVf",
+    "image_with_text_EgfkaM",
+    "image_with_text_gknzTp",
+    "image_with_text_HEFcNi"
+  ]
+}

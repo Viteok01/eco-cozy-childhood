@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-5"
+      }
+    },
+    "image_banner_WwGxtA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kAgdCY": {
+          "type": "heading",
+          "settings": {
+            "heading": "LITTLE DREAMERS | 6-10 YEARS",
+            "heading_size": "h1"
+          }
+        },
+        "text_KyJtRg": {
+          "type": "text",
+          "settings": {
+            "text": "A COZY AND HARMONIOUS ENVIRONMENT FOR GROWTH AND INSPIRATION — EVERYTHING THAT HELPS CHILDREN DEVELOP, DREAM, AND EXPRESS THEMSELVES.",
+            "text_style": "body"
+          }
+        },
+        "buttons_DYhtPR": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kAgdCY",
+        "text_KyJtRg",
+        "buttons_DYhtPR"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Tiny_Beginning_0-2.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-5",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "image_banner_WwGxtA",
+    "main-collection-product-grid"
+  ]
+}

@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "image_banner_LVyBqe": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UgeGhk": {
+          "type": "heading",
+          "settings": {
+            "heading": "IT ALL STARTS WITH A COZY, CONSCIOUS CHILDHOOD.",
+            "heading_size": "h1"
+          }
+        },
+        "text_KKB7yi": {
+          "type": "text",
+          "settings": {
+            "text": "WE’RE HERE TO MAKE CHOOSING SAFE, SUSTAINABLE, AND BEAUTIFUL ESSENTIALS SIMPLE FOR YOU.",
+            "text_style": "body"
+          }
+        },
+        "buttons_VqgkTP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UgeGhk",
+        "text_KKB7yi",
+        "buttons_VqgkTP"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/vecteezy_happy-baby-learning-to-walk-with-mother-help_20662569.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-5",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_with_text_pqBK3r": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8RqTdp": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE MOMENT THE VISION WAS BORN",
+            "heading_size": "h2"
+          }
+        },
+        "text_7Gzdqg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"As new parents, we struggled to find products that were truly safe for our baby and kind to the planet, without sacrificing design. We were tired of sacrificing quality for sustainability, or vice-versa. So, we set out to build a place where conscious choices are easy—a curated collection that meets the highest standards of safety, quality, and design.\"</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kapaVY": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8RqTdp",
+        "text_7Gzdqg",
+        "button_kapaVY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/vecteezy_baby-crib-cloud-pillows-night-lights-hot-air-balloon_69181672.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_GyM3RB": {
+      "type": "multirow",
+      "blocks": {
+        "row_aFEbMM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/vecteezy_teddy-bear-and-night-light-in-cozy-indoor-tent-setting_70020355.jpg",
+            "caption": "",
+            "heading": "CAREFULLY SOURCED MATERIALS",
+            "text": "<p>\"We select items made with natural-feeling materials like cotton, wood, and silicone. We prioritize suppliers who share our vision for gentle, non-toxic products, making the selection easier for you.\"</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_kYYcVa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/vecteezy_minimalist-nursery-room-with-wooden-crib-macrame-wall_69909531.jpg",
+            "caption": "",
+            "heading": "DESIGNED FOR ENDURING JOY",
+            "text": "<p>\"Our products are chosen for their timeless aesthetic and construction intended to last. Investing in an item from our collection means choosing quality that can handle daily life and remain beautiful.\"</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nYrNWg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/vecteezy_rectangular-frame-poster-mockup-on-light-concrete-wall-in_34324948.jpg",
+            "caption": "",
+            "heading": "CURATING CALM FOR YOUR HOME",
+            "text": "<p>\"Every piece in our shop is selected to promote a serene, harmonious environment. We favor muted color palettes and minimalist designs that encourage open-ended play and blend beautifully with your modern nursery decor.\"</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_aFEbMM",
+        "row_kYYcVa",
+        "row_nYrNWg"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CXRGNk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VTBJRP": {
+          "type": "heading",
+          "settings": {
+            "heading": "READY TO CURATE YOUR COZY SPACE?",
+            "heading_size": "h2"
+          }
+        },
+        "text_XrRe4k": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_tTpTa9": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VTBJRP",
+        "text_XrRe4k",
+        "button_tTpTa9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_LVyBqe",
+    "image_with_text_pqBK3r",
+    "multirow_GyM3RB",
+    "rich_text_CXRGNk"
+  ]
+}
