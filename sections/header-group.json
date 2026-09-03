@@ -13,6 +13,16 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "announcement_1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free delivery on every order  ·  30 days to change your mind",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["announcement_1"],
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,

@@ -14,6 +14,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_text": {
+          "type": "text",
+          "settings": {
+            "heading": "Eco Cozy Childhood",
+            "subtext": "<p>Wooden toys and cotton textiles for the first ten years. Worldwide shipping, free on every order.</p>"
+          }
+        },
         "link_list_PLiky8": {
           "type": "link_list",
           "settings": {
@@ -23,12 +30,13 @@
         }
       },
       "block_order": [
+        "brand_text",
         "link_list_PLiky8"
       ],
       "settings": {
         "color_scheme": "scheme-5",
-        "newsletter_enable": false,
-        "newsletter_heading": "SUBSCRIBE TO OUR EMAILS",
+        "newsletter_enable": true,
+        "newsletter_heading": "A letter every other week",
         "enable_follow_on_shop": false,
         "show_social": false,
         "enable_country_selector": false,
