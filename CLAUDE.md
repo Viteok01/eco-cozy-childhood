@@ -53,3 +53,24 @@
 - **Товары не удалять** — только ARCHIVED. Активный каталог держим маленьким (проверка
   Google Merchant Center). Пользователь сам курирует, что возвращать из архива.
 - Коллекции не удалять — снимать с публикации.
+
+## Тема / GitHub-синхронизация — грабли
+
+- Shopify GitHub-импорт **молча отклоняет `templates/*.json`**, если хоть одна числовая
+  настройка не по `step`/`min`/`max` из schema секции. Ошибка видна только в
+  Theme card → **View logs**. Перед пушем JSON-шаблона — сверять КАЖДОЕ число:
+  `padding_top/bottom` шаг 4; `image_overlay_opacity` шаг 10; у `_blocks`/`ai_gen_block_7ff5f7e`
+  свои (`heading_spacing` min10 step5, `section_padding` min20 step5, `item_gap` step5,
+  `icon_text_gap` min5 step5, `icon_size` min40 step5).
+- Структуру менять МОЖНО (новые ключи секций, новые типы, reorder) — это не отклоняется.
+- Синк GitHub→Shopify лагает 2–8 мин; проверять через Admin API `theme.files`
+  (`updatedAt`/`size`), не по глазам.
+- Ветка `redesign` подключена как тема `eco-cozy-childhood/redesign`
+  (gid 142189428798), UNPUBLISHED.
+
+## Что уже в теме `redesign` (на 3 сент 2026)
+
+Палитра/шрифты/радиусы (`settings_data.json`), карточка товара без фейкового рейтинга
++ честная панель доставки (`templates/product.json`), announcement + футер
+(`header-group.json` / `footer-group.json`), полная раскладка главной
+(`templates/index.json`). На `main` НЕ мержено — по просьбе пользователя.
