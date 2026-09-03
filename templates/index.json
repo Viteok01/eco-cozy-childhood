@@ -12,21 +12,21 @@
     "hero": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "heading_hero": {
           "type": "heading",
           "settings": {
             "heading": "Toys that grow with your child",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text_hero": {
           "type": "text",
           "settings": {
             "text": "Natural materials, chosen for one developmental stage at a time — from first rattles to reading tents.",
             "text_style": "body"
           }
         },
-        "buttons": {
+        "buttons_hero": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop by age",
@@ -38,7 +38,8 @@
           }
         }
       },
-      "block_order": ["heading", "text", "buttons"],
+      "block_order": ["heading_hero", "text_hero", "buttons_hero"],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/vecteezy_cozy-indoor-teepee-setup-with-soft-cushions-and-natural_53212105.jpg",
         "image_overlay_opacity": 25,
@@ -54,70 +55,44 @@
       }
     },
     "trust_bar": {
-      "type": "multicolumn",
+      "type": "rich-text",
       "blocks": {
-        "c1": {
-          "type": "column",
+        "text_trust": {
+          "type": "text",
           "settings": {
-            "title": "Made to last",
-            "text": "<p>If it won't outlast one child, we don't list it.</p>"
-          }
-        },
-        "c2": {
-          "type": "column",
-          "settings": {
-            "title": "Natural wood &amp; cotton",
-            "text": "<p>No plastic in the core range.</p>"
-          }
-        },
-        "c3": {
-          "type": "column",
-          "settings": {
-            "title": "Free delivery on every order",
-            "text": "<p>Worldwide, no minimum spend.</p>"
-          }
-        },
-        "c4": {
-          "type": "column",
-          "settings": {
-            "title": "30 days to change your mind",
-            "text": "<p>Return postage is yours; faults are ours.</p>"
+            "text": "<p>Made to last &nbsp;·&nbsp; Natural wood &amp; cotton &nbsp;·&nbsp; Free delivery on every order &nbsp;·&nbsp; 30 days to change your mind</p>"
           }
         }
       },
-      "block_order": ["c1", "c2", "c3", "c4"],
+      "block_order": ["text_trust"],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-5",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 28
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "shop_by_age": {
       "type": "collection-list",
       "blocks": {
-        "a1": {
+        "age_1": {
           "type": "featured_collection",
           "settings": { "collection": "tiny-beginnings" }
         },
-        "a2": {
+        "age_2": {
           "type": "featured_collection",
           "settings": { "collection": "curious-explorers" }
         },
-        "a3": {
+        "age_3": {
           "type": "featured_collection",
           "settings": { "collection": "little-dreamers" }
         }
       },
-      "block_order": ["a1", "a2", "a3"],
+      "block_order": ["age_1", "age_2", "age_3"],
+      "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "Shop by age",
         "heading_size": "h1",
@@ -127,12 +102,13 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 64,
+        "padding_top": 60,
         "padding_bottom": 40
       }
     },
     "gift_sets": {
       "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "sets",
         "products_to_show": 4,
@@ -162,25 +138,26 @@
     "materials": {
       "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "heading_mat": {
           "type": "heading",
           "settings": {
             "heading": "Three things we check before a toy gets listed",
             "heading_size": "h2"
           }
         },
-        "text": {
+        "text_mat": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>01 &middot; The material</strong><br>Solid beech and birch, cotton, food-grade silicone. Water-based paint only. No plastic in the core range.</p><p><strong>02 &middot; The build</strong><br>Sanded smooth, tight seams, and nothing with small parts in the range we sell for under-threes.</p><p><strong>03 &middot; The lifespan</strong><br>If it will not survive a second child, it does not go in the catalogue.</p>",
+            "text": "<p><strong>01 &middot; The material.</strong> Solid beech and birch, cotton, food-grade silicone. Water-based paint only. No plastic in the core range.</p><p><strong>02 &middot; The build.</strong> Sanded smooth, tight seams, and nothing with small parts in the range we sell for under-threes.</p><p><strong>03 &middot; The lifespan.</strong> If it will not survive a second child, it does not go in the catalogue.</p>",
             "text_style": "body"
           }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": ["heading_mat", "text_mat"],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/vecteezy_a-baby-s-feet-are-covered-in-white-blankets_71474187.jpg",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
@@ -190,12 +167,13 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "popular_picks": {
       "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "all",
         "products_to_show": 4,
@@ -218,14 +196,14 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 64,
+        "padding_top": 60,
         "padding_bottom": 48
       }
     },
     "gift_guide": {
       "type": "multicolumn",
       "blocks": {
-        "g1": {
+        "budget_1": {
           "type": "column",
           "settings": {
             "title": "Under £50",
@@ -234,7 +212,7 @@
             "link": "shopify://collections/gifts-under-50"
           }
         },
-        "g2": {
+        "budget_2": {
           "type": "column",
           "settings": {
             "title": "£50 to £100",
@@ -243,7 +221,7 @@
             "link": "shopify://collections/gifts-50-100"
           }
         },
-        "g3": {
+        "budget_3": {
           "type": "column",
           "settings": {
             "title": "£100 and over",
@@ -253,7 +231,8 @@
           }
         }
       },
-      "block_order": ["g1", "g2", "g3"],
+      "block_order": ["budget_1", "budget_2", "budget_3"],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Gift guide by budget",
         "heading_size": "h1",
@@ -268,35 +247,6 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "A letter every other week",
-            "heading_size": "h2"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>What to play with at which age, restock notices, and £5 off your first order.</p>"
-          }
-        },
-        "email": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": ["heading", "paragraph", "email"],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 56,
-        "padding_bottom": 56
-      }
     }
   },
   "order": [
@@ -306,7 +256,6 @@
     "gift_sets",
     "materials",
     "popular_picks",
-    "gift_guide",
-    "newsletter"
+    "gift_guide"
   ]
 }
