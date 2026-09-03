@@ -24,13 +24,6 @@
           "type": "title",
           "settings": {}
         },
-        "custom_liquid_rfGKx9": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div class=\"product-rating\">\n  <div class=\"product-rating__stars\" aria-label=\"Rating 4.8 out of 5\">\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span class=\"half-star\">★</span>\n  </div>\n\n  <span class=\"product-rating__score\">4.8</span>\n\n  <a href=\"#reviews\" class=\"product-rating__reviews\">\n    86 Reviews\n  </a>\n</div>\n\n<style>\n  .product-rating {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    margin: 8px 0 18px;\n    font-family: inherit;\n  }\n\n  /* Звёзды */\n  .product-rating__stars {\n    display: flex;\n    align-items: center;\n    gap: 2px;\n    font-size: 18px;\n    line-height: 1;\n    letter-spacing: 0;\n  }\n\n  .product-rating__stars span {\n    color: #d4a84f;\n  }\n\n  /* Половина последней звезды */\n  .product-rating__stars .half-star {\n    background: linear-gradient(\n      90deg,\n      #d4a84f 80%,\n      rgba(255, 255, 255, 0.35) 80%\n    );\n\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    background-clip: text;\n  }\n\n  /* Оценка 4.8 */\n  .product-rating__score {\n    font-size: 14px;\n    font-weight: 500;\n    color: #ffffff;\n  }\n\n  /* Количество отзывов */\n  .product-rating__reviews {\n    font-size: 14px;\n    color: #ffffff;\n    text-decoration: underline;\n    text-underline-offset: 3px;\n    transition: opacity 0.2s ease;\n  }\n\n  .product-rating__reviews:hover {\n    color: #ffffff;\n    opacity: 0.75;\n  }\n\n  /* Mobile */\n  @media screen and (max-width: 749px) {\n    .product-rating {\n      margin: 6px 0 14px;\n      gap: 7px;\n    }\n\n    .product-rating__stars {\n      font-size: 17px;\n    }\n\n    .product-rating__score,\n    .product-rating__reviews {\n      font-size: 13px;\n    }\n  }\n</style>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -49,34 +42,39 @@
             "show_gift_card_recipient": true
           }
         },
-        "collapsible_tab_t9NL7K": {
-          "type": "collapsible_tab",
+        "assurances": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Description",
-            "icon": "dairy",
-            "content": "{{ product.description }}",
-            "page": ""
+            "custom_liquid": "<div class=\"pdp-assurances\">\n  <p><strong>Free delivery</strong> on every order &mdash; worldwide, about 8&ndash;18 working days.</p>\n  <p><strong>30 days to change your mind</strong> &mdash; return postage is yours; faults are ours.</p>\n  <p><strong>Natural materials</strong> &mdash; wood and cotton, no plastic in the core range.</p>\n</div>\n<style>\n  .pdp-assurances { margin-top: 18px; padding: 18px 20px; background: rgba(107,44,62,0.06); display: grid; gap: 8px; font-size: 14px; line-height: 1.5; }\n  .pdp-assurances p { margin: 0; }\n  .pdp-assurances strong { font-weight: 600; }\n</style>"
           }
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
+        },
+        "care_tab": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery & returns",
+            "icon": "truck",
+            "content": "<p>Free standard delivery on every order, worldwide. Orders are processed in 1&ndash;3 working days and arrive in roughly 8&ndash;18 working days. You get a tracking number when the order ships.</p><p>You have 30 days from receipt to return an unused item in its original packaging. For a change of mind, return postage is yours; if an item is faulty or wrong, we cover it &mdash; email ecocozy.support@gmail.com with photos and your order number.</p><p>Customs duties may apply on delivery in some countries and are the customer's responsibility.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "text",
         "title",
-        "custom_liquid_rfGKx9",
         "price",
         "variant_picker",
         "buy_buttons",
-        "collapsible_tab_t9NL7K",
-        "description"
+        "assurances",
+        "description",
+        "care_tab"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -93,17 +91,17 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "YOU MAY ALSO LIKE",
+        "heading": "Goes well with it",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
         "columns_mobile": "2",
-        "color_scheme": "scheme-2",
-        "image_ratio": "square",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "padding_top": 32,
         "padding_bottom": 32
       }
