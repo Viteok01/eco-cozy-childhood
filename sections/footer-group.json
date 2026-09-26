@@ -35,7 +35,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-5",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "A letter every other week",
         "enable_follow_on_shop": false,
         "show_social": false,

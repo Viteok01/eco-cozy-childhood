@@ -55,50 +55,53 @@
       }
     },
     "176142644486a06113": {
-      "type": "_blocks",
+      "type": "multicolumn",
       "blocks": {
-        "ai_gen_block_7ff5f7e_7iBHbP": {
-          "type": "ai_gen_block_7ff5f7e",
+        "trust_1": {
+          "type": "column",
           "settings": {
-            "heading": "",
-            "heading_size": 24,
-            "heading_spacing": 10,
-            "section_padding": 20,
-            "max_width": 1200,
-            "animation_speed": 40,
-            "item_gap": 45,
-            "icon_size": 40,
-            "icon_border_radius": 0,
-            "icon_text_gap": 5,
-            "icon_background": "#6b2c3e",
-            "icon_color": "#efeae0",
-            "text_size": 14,
-            "background_color": "#6b2c3e",
-            "text_color": "#efeae0",
-            "feature_1_enabled": true,
-            "feature_1_icon": "quality",
-            "feature_1_text": "Made to last",
-            "feature_2_enabled": true,
-            "feature_2_icon": "natural",
-            "feature_2_text": "Natural wood & cotton",
-            "feature_3_enabled": true,
-            "feature_3_icon": "recycle",
-            "feature_3_text": "No plastic in the core range",
-            "feature_4_enabled": true,
-            "feature_4_icon": "safe",
-            "feature_4_text": "Free delivery on every order",
-            "feature_5_enabled": true,
-            "feature_5_icon": "eco",
-            "feature_5_text": "30 days to change your mind",
-            "feature_6_enabled": false,
-            "feature_6_icon": "quality",
-            "feature_6_text": ""
-          },
-          "blocks": {}
+            "title": "Made to last",
+            "text": "<p>If it won't outlast one child, we don't list it.</p>"
+          }
+        },
+        "trust_2": {
+          "type": "column",
+          "settings": {
+            "title": "Natural wood &amp; cotton",
+            "text": "<p>No plastic in the core range.</p>"
+          }
+        },
+        "trust_3": {
+          "type": "column",
+          "settings": {
+            "title": "Free delivery on every order",
+            "text": "<p>Worldwide, no minimum spend.</p>"
+          }
+        },
+        "trust_4": {
+          "type": "column",
+          "settings": {
+            "title": "30 days to change your mind",
+            "text": "<p>Return postage is yours; faults are ours.</p>"
+          }
         }
       },
-      "block_order": ["ai_gen_block_7ff5f7e_7iBHbP"],
-      "settings": {}
+      "block_order": ["trust_1", "trust_2", "trust_3", "trust_4"],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     },
     "shop_by_age": {
       "type": "collection-list",
