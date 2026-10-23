@@ -35,11 +35,8 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        ".header__icon--search {display: none !important;}"
-      ],
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",

@@ -194,7 +194,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "all",
+        "collection": "popular-picks",
         "products_to_show": 4,
         "title": "Popular picks",
         "heading_size": "h1",

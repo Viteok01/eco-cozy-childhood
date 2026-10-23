@@ -52,6 +52,15 @@
           "type": "description",
           "settings": {}
         },
+        "safety_tab": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety & care",
+            "icon": "heart",
+            "content": "<p>Everything in our core range is solid wood, cotton or food-grade silicone, sanded smooth with water-based paint only &mdash; no plastic in the core range. Items sold for under-threes avoid small parts.</p><p>Wipe wooden pieces with a damp cloth; do not soak. Textiles are machine washable at 30&deg;C unless the product label says otherwise.</p>",
+            "page": ""
+          }
+        },
         "care_tab": {
           "type": "collapsible_tab",
           "settings": {
@@ -70,6 +79,7 @@
         "buy_buttons",
         "assurances",
         "description",
+        "safety_tab",
         "care_tab"
       ],
       "settings": {
